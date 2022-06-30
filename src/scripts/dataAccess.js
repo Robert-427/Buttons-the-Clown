@@ -99,3 +99,19 @@ export const deleteCompletion = (id) => {
             }
         )
 }
+
+export const updateRequest = (userPartyRequest) => {
+    const fetchOptions = {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(userPartyRequest)
+    }
+
+    return fetch(`${API}/requests/${userPartyRequest.id}`, fetchOptions)
+        .then(response => response.json())
+        .then(() => {
+            mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+        })
+}

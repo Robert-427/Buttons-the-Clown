@@ -9,35 +9,6 @@
       "name": "Lollipop"
     }
   ],
-  "completions": [
-    {
-      "requestId": 3,
-      "clownId": 1,
-      "child": "Johnny",
-      "date_created": 1656531657783,
-      "id": 1
-    }
-  ],
-  "requests": [
-    {
-      "parent": "Stan",
-      "child": "Mabel",
-      "guestAmount": "25",
-      "address": "5234 Pine St",
-      "neededBy": "2022-07-01",
-      "lengthNeeded": "3",
-      "isComplete": false,
-      "id": 2
-    },
-    {
-      "parent": "Jimbo",
-      "child": "Johnny",
-      "guestAmount": "3",
-      "address": "234 Main",
-      "neededBy": "2022-06-30",
-      "lengthNeeded": "2",
-      "isComplete": false,
-      "id": 3
-    }
-  ]
+  "completions": [],
+  "requests": []
 }
